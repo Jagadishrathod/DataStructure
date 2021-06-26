@@ -18,11 +18,16 @@ void print(struct Tnode *ptr);
 struct Tnode *rptr=NULL;
 
 void main(){
-	printf("----Library Management----\n");
+	printf("-----Library Management-----\n");
 	
 	int choice = 1;
   	while( choice > 0){
-  		printf("What do you want do?\nInsert		-	1\nDelete		-	2\nSearch 		-	3\nExit		-	0\nEnter Option: ");
+  		printf("What do you want do?\n");
+  		printf("Insert		-	1\n");
+  		printf("Delete		-	2\n");
+  		printf("Search 		-	3\n");
+  		printf("Exit		-	0\n");
+  		printf("Enter Option: ");
 		scanf("%d",&choice);
 		
 		if(choice == 1){
